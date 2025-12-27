@@ -1,0 +1,8 @@
+"Modulate"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\healthbargradient"
+	"$vertexcolor" 1
+	"$additive"	1
+	"$mod2x" 1
+}
