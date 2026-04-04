@@ -579,6 +579,7 @@
 		"enabled"									"1"
 		"wide"										"640"
 		"tall"										"f0"
+		"alpha"										"0"
 	}
 	"HudScopeCharge"
 	{

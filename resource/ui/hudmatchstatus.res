@@ -613,5 +613,54 @@
 			}
 		}
 	}
+	"MatchDoors"									// CAUSES CRASHES ON MATCH STARTUP IF WRONGLY REMOVED, WILL TEST WHICH LINE CAUSES THAT IN THE FUTURE
+	{
+		"ControlName"								"CModelPanel"
+		"fieldName"									"MatchDoors"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"zpos"										"2"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+		"fov"										"70"
+		"proportionaltoparent"						"1"
+		"alpha"										"0"
+
+		"Model"
+		{
+			"modelname"								"models/vgui/versus_doors.mdl"
+			"skin"									"0"
+			"angles_x"								"0"
+			"angles_y"								"0"
+			"angles_z"								"0"
+			"origin_x"								"120"
+			"origin_y"								"0"
+			"origin_z"								"-77"
+
+			"Animation"
+			{
+				"name"								"ref"
+				"sequence"							"ref"
+				"default"							"1"
+			}
+			"Animation"
+			{
+				"name"								"open"
+				"sequence"							"open"
+			}
+			"Animation"
+			{
+				"name"								"close"
+				"sequence"							"close"
+			}
+			"Animation"
+			{
+				"name"								"idle_closed"
+				"sequence"							"idle_closed"
+			}
+		}
+	}
 "RoundCounter"{"fieldName" "RoundCounter" "xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 }
